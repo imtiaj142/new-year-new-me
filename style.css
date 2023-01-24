@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    
+    
+}
+body{
+    font-family: 'Inter', sans-serif;
+    color: #333;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+.container{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero-area{
+    background-image: url("./images/banner/banner3.png");
+    width: 100%;
+    padding:280px 0;
+    background-size: cover;
+    text-align:right;
+}
+.banner-title{
+    color: white;
+    font-size:30px;
+
+}
+.description{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.primary-button{
+    padding: 14px 22px;
+    font-weight: 500;
+    border-radius: 4px;
+    border: none;
+    text-shadow: none;
+    box-shadow: none;
+    cursor: pointer;
+
+}
+
+.secound-banner{
+    display: flex;
+   padding: 100px 50px;
+    
+}
+
+.second-banner-items{
+    margin-top:220px;
+    padding:20px 25px;
+}
+ul li{
+    list-style: none;
+}
+ul li:before {
+    content: '✓';
+    color:lightgreen;
+  }
+.secound-banner-title{
+    font-size:30px;
+}
+.secound-description{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+/*my plans item style*/
+.parents-my-plans-item{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.img{
+    width: 50px;
+    
+}
+.my-plans-items{
+     
+     padding: 32px 18px;
+
+    
+}
+.plans-title{
+   
+    
+}
+/*my plans items style end*/
+.gradient-items{
+    background-image: url("./images/watch.png");
+    background-repeat: no-repeat;
+    padding: 40px 40px;
+    margin: 0px 0px auto;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+    z-index: 2;
+    
+    
+}
+.gradient-items::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(45deg, #f15b22, transparent);
+    z-index: -1;
+}
+    
+.gradient-title{
+    color: white;
+    margin-bottom: 15px;
+}
+.footer-area{
+    background: #151414;;
+}
+.footer-items{
+    color: white;
+    display: flex;
+    padding: 82px 48px;
+    gap: 250px;
+    
+}
+.footer-icon{
+    display: flex;
+    gap: 15px;
+    
+    
+}
+.img-icon{
+    width:20px;
+}
+.footer-descripion{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer-email{
+    border: 1px solid #FFFFFF;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-size:10px;
+    font-weight: 400px;
+     margin: 20px 0px;
+}
